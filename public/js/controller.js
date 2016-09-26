@@ -2,7 +2,7 @@
  * Created by momo on 9/21/16.
  */
 
-angular.module('portfolioMgr', [])
+angular.module('jobsMgr', [])
 .directive('gravatar', function() {
 	return {
 		restrict: 'AE',
