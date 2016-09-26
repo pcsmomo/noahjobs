@@ -1,17 +1,17 @@
 ## Commands by Noah
 
-cd Documents/Dev/git/portfolio/  
+cd Documents/Dev/git/noahjobs/  
 
-express noahportfolio  
-cd noahportfolio && npm install  
+express noahjobs  
+cd noahjobs && npm install  
 
-DEBUG=noahportfolio:* npm start  
+DEBUG=noahjobs:* npm start  
 
 heroku
-heroku app:create noahportfolio  
-heroku git:remote –a noahportfolio  
+heroku app:create noahjobs 
+heroku git:remote –a noahjobs
 git push heroku master  
-heroku ps:scale --app noahportfolio web=1  
+heroku ps:scale --app noahjobs web=1  
 
 * [How to set markdown plugin on sublime text 3](https://www.raywenderlich.com/119949/top-five-markdown-editors)
 
